@@ -1,13 +1,13 @@
 # Customer Segmentation in Marketing with Python Project
 
 ### Case Description
-To what extent does our platform’s acquisition channel influence the learning outcomes of our students?
+To what extent does our platform’s **customer outreach methods** influence the learning outcomes of our students?
 
-Are there any geographical locations where most of our students discover the platform, specifically through social media platforms like YouTube or Facebook?
+Are there any **geographical locations** where most of our students discover the platform, specifically through social media platforms like YouTube or Facebook?
 
-In this project, I am working with customer data to perform market segmentation—crucial for businesses to understand customer behavior and improve marketing efficiency. The project will involve data preprocessing, exploratory data analysis (EDA), feature engineering, implementation of clustering algorithms, and interpretation of results. Two popular clustering techniques are used: k-means and hierarchical clustering.
+In this project, I am working with customer data to perform market segmentation—crucial for businesses to understand customer behavior and improve marketing efficiency. The project will involve **data preprocessing, exploratory data analysis (EDA), feature engineering, implementation of clustering algorithms, and interpretation of results**. Two popular clustering techniques are used: **k-means and hierarchical clustering**.
 
-In this project, I delved into the diversity of customer behavior and identify distinct segments that could be targeted with personalized marketing strategies.
+In this project, I delved into the diversity of customer behavior and identify distinct segments that could be targeted with **personalized marketing strategies**.
 
 ### Project requirements
 * Python version: Python v.3
@@ -129,9 +129,6 @@ Here because I had **preliminary idea** of the number of clusters given from the
 1. **Initial setup sensitivity:** K-means is highly sensitive to initial starting conditions. Different runs give different results. Hierarchical clustering is deterministic and will always provide the same result with the same data.
 1. **Cluster shape:** K-means works best with spherical and evenly sized clusters. Hierarchical clustering does not have these assumptions.
 
-
-
-
 ## [Part 3: Model Evaluation and Results (click here to see Python notebook)](./customer-segmentation-in-marketing-with-python-project.ipynb)
 
 I grouped the data by segments and aggregate the features
@@ -168,7 +165,7 @@ Finally, I am going to interpret the customer segments from a marketing perspect
 
 We should go through the different segments and analyze the channels through which customers visited the platform and their regions. 
 
-These are the **questions** we try to answer with our analysis:
+These are the **questions** I tried to answer with my analysis:
 * Are there segments that attract engaged students with high Customer Lifetime Value (CLV)?
 * From which channels do these segments originate, and which regions do they come from?
 
